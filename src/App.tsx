@@ -72,6 +72,15 @@ const App = () => {
           >
             {myData[question].b}
           </div>
+          <div
+            className="col-span-2 mx-auto w-1/2 cursor-pointer rounded-lg border border-gray-300 p-4 text-center"
+            onClick={() => {
+              setAnswers([...answers, 'c']);
+              setQuestion(question + 1);
+            }}
+          >
+            Either
+          </div>
         </div>
       </div>
     </div>
