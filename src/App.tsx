@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import myData from './data/questions.json';
 
-interface Question {
-  a: string;
-  b: string;
-}
+// interface Question {
+//   a: string;
+//   b: string;
+// }
 
 const App = () => {
   const [question, setQuestion] = useState<number>(0);
