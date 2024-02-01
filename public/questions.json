@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "question": "Would you rather have the ability to fly or be invisible?",
+    "options": ["Fly", "Invisible"]
+  },
+  {
+    "id": 2,
+    "question": "Would you rather live in a virtual reality where you are all powerful or live in the real world?",
+    "options": ["Virtual Reality", "Real World"]
+  }
+]
